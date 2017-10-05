@@ -16,7 +16,7 @@ public class DBconnection {
 		Connection con = null;
 		try {
                     Class.forName("com.mysql.jdbc.Driver");
-            con=DriverManager.getConnection("jdbc:mysql://localhost:3306/enablingkeyword_search","root","comrade;");
+            con=DriverManager.getConnection("jdbc:mysql://localhost:3306/enablingkeyword_search","root","Password");
             
             if(con==null)
             {
@@ -24,7 +24,6 @@ public class DBconnection {
             }
 			
 		} catch (Exception e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		return con;
