@@ -6,7 +6,7 @@ import java.util.Locale;
 
 public class DropBoxAccess {
 
-    private final static String ACCESS_TOKEN = "G7bhPttAM0AAAAAAAAAAMgtfpgt2xjs7mZYPeiZo8NW5PzvuSK2Wd1ilvGFngk27";
+    private final static String ACCESS_TOKEN = "Your dropbox access token";
     private final static String userLocale = Locale.getDefault().toString();
     private static DbxClient dbxClient;
 
